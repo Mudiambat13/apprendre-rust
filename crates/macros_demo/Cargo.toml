@@ -1,0 +1,14 @@
+[package]
+name = "macros_demo"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Macros procédurales pédagogiques (sans syn ni quote) pour le chapitre 20"
+license = "MIT"
+publish = false
+
+[lib]
+proc-macro = true
+
+# Volontairement AUCUNE dépendance : on manipule directement les `TokenStream`.
+# En pratique, on utilise `syn` (parsing), `quote` (génération) et `proc-macro2`.

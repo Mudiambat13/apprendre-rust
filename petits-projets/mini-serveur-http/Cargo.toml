@@ -1,0 +1,11 @@
+[package]
+name = "mini-serveur-http"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Mini serveur HTTP/1.1 multi-thread basé sur le projet thread-pool"
+license = "MIT"
+publish = false
+
+[dependencies]
+thread-pool = { path = "../../projets/thread-pool" }

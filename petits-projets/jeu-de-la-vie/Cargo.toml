@@ -1,0 +1,9 @@
+[package]
+name = "jeu-de-la-vie"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Jeu de la vie de Conway sur une grille torique"
+license = "MIT"
+publish = false
+

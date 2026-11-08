@@ -1,0 +1,9 @@
+[package]
+name = "huffman"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Compresseur / décompresseur de Huffman (format binaire maison)"
+license = "MIT"
+publish = false
+

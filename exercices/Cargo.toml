@@ -1,0 +1,8 @@
+[package]
+name = "exercices"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Exercices à trous (todo!) : remplissez-les jusqu'à ce que tous les tests passent"
+license = "MIT"
+publish = false

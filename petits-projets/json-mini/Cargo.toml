@@ -1,0 +1,9 @@
+[package]
+name = "json-mini"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Parseur et sérialiseur JSON écrit à la main"
+license = "MIT"
+publish = false
+

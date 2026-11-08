@@ -1,0 +1,6 @@
+Rust est un langage de programmation système.
+Il garantit la sécurité mémoire sans ramasse-miettes.
+Le compilateur de Rust est strict mais très utile.
+Python est pratique pour prototyper rapidement.
+Les erreurs de Rust sont souvent très explicites.
+rust, RUST, Rust : essayez l'option -i !

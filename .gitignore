@@ -1,0 +1,16 @@
+# Rust
+/target
+**/target
+**/*.rs.bk
+
+# Éditeurs / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Miri / profiling
+*.profraw
+flamegraph.svg
+perf.data*

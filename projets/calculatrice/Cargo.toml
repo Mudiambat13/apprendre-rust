@@ -1,0 +1,8 @@
+[package]
+name = "calculatrice"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Projet 2 : une calculatrice avec analyseur lexical, parser récursif descendant et évaluateur"
+license = "MIT"
+publish = false

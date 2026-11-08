@@ -1,0 +1,8 @@
+[package]
+name = "thread-pool"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Projet 3 : un pool de threads réutilisables, sans dépendance"
+license = "MIT"
+publish = false

@@ -1,0 +1,9 @@
+[package]
+name = "todo-cli"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Gestionnaire de tâches en ligne de commande avec persistance dans un fichier"
+license = "MIT"
+publish = false
+

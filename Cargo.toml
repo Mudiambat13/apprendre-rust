@@ -1,0 +1,55 @@
+[package]
+name = "apprendre-rust"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Apprendre Rust de zéro à expert : cours, exemples exécutables, exercices et projets"
+license = "MIT"
+readme = "README.md"
+publish = false
+
+[dependencies]
+# Crate de macros procédurales écrite pour le chapitre 20 (aucune dépendance externe).
+macros_demo = { path = "crates/macros_demo" }
+
+[workspace]
+resolver = "3"
+members = [
+    ".",
+    "crates/macros_demo",
+    "projets/minigrep",
+    "projets/calculatrice",
+    "projets/thread-pool",
+    "solutions",
+    "exercices",
+    "petits-projets/morpion",
+    "petits-projets/labyrinthe",
+    "petits-projets/jeu-de-la-vie",
+    "petits-projets/huffman",
+    "petits-projets/json-mini",
+    "petits-projets/chiffrements",
+    "petits-projets/mini-serveur-http",
+    "petits-projets/todo-cli",
+]
+# `exercices` est volontairement exclu : ses tests échouent tant que vous n'avez
+# pas rempli les `todo!()`. Lancez-le explicitement : cargo test -p exercices
+default-members = [
+    ".",
+    "crates/macros_demo",
+    "projets/minigrep",
+    "projets/calculatrice",
+    "projets/thread-pool",
+    "solutions",
+    "petits-projets/morpion",
+    "petits-projets/labyrinthe",
+    "petits-projets/jeu-de-la-vie",
+    "petits-projets/huffman",
+    "petits-projets/json-mini",
+    "petits-projets/chiffrements",
+    "petits-projets/mini-serveur-http",
+    "petits-projets/todo-cli",
+]
+
+[profile.release]
+lto = true
+codegen-units = 1

@@ -1,0 +1,8 @@
+[package]
+name = "minigrep"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Projet 1 : un mini grep en ligne de commande (bibliothèque + binaire)"
+license = "MIT"
+publish = false

@@ -1,0 +1,9 @@
+[package]
+name = "morpion"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Morpion contre une IA minimax (jamais battue)"
+license = "MIT"
+publish = false
+

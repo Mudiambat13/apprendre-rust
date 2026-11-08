@@ -1,0 +1,9 @@
+[package]
+name = "labyrinthe"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Génération (DFS) et résolution (BFS) de labyrinthes en ASCII"
+license = "MIT"
+publish = false
+
